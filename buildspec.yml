@@ -1,6 +1,10 @@
 version: 0.2
 
 phases:
+  install:
+    commands:
+      - echo installing
+      - yarn
   build:
     commands:
       - echo Build started on `date`

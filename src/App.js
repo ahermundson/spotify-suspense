@@ -10,10 +10,10 @@ const { TabPane } = Tabs;
 function App() {
   const [token, setToken] = React.useState();
 
-  React.useEffect(() => {
-    const _token = getTokenFromHash();
-    setToken(_token);
-  }, []);
+  // React.useEffect(() => {
+  //   const _token = getTokenFromHash();
+  //   setToken(_token);
+  // }, []);
 
   return (
     <div style={{ margin: "0 25px" }}>
